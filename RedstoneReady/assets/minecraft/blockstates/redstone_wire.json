@@ -1,0 +1,232 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "OR": [
+          {
+            "north": "none",
+            "south": "none",
+            "east": "none",
+            "west": "none"
+          },
+          {
+            "north": "side|up",
+            "east": "side|up"
+          },
+          {
+            "south": "side|up",
+            "east": "side|up"
+          },
+          {
+            "south": "side|up",
+            "west": "side|up"
+          },
+          {
+            "north": "side|up",
+            "west": "side|up"
+          }
+        ]
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_wire/redstone_dust_dot"
+      }
+    },
+    {
+      "when": {
+        "north": "side|up"
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_wire/redstone_dust_side0"
+      }
+    },
+    {
+      "when": {
+        "south": "side|up"
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_wire/redstone_dust_side_alt0"
+      }
+    },
+    {
+      "when": {
+        "east": "side|up"
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_wire/redstone_dust_side_alt1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "west": "side|up"
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_wire/redstone_dust_side1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "north": "up"
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_wire/redstone_dust_up"
+      }
+    },
+    {
+      "when": {
+        "east": "up"
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_wire/redstone_dust_up",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "up"
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_wire/redstone_dust_up",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "west": "up"
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_wire/redstone_dust_up",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+          "power": 0
+      },
+      "apply": {
+          "model": "block/redstone_wire/dust_ss0"
+      }
+    },
+    {
+      "when": {
+          "power": 1
+      },
+      "apply": {
+          "model": "block/redstone_wire/dust_ss1"
+      }
+    },
+    {
+      "when": {
+          "power": 2
+      },
+      "apply": {
+          "model": "block/redstone_wire/dust_ss2"
+      }
+    },
+    {
+      "when": {
+          "power": 3
+      },
+      "apply": {
+          "model": "block/redstone_wire/dust_ss3"
+      }
+    },
+    {
+      "when": {
+          "power": 4
+      },
+      "apply": {
+          "model": "block/redstone_wire/dust_ss4"
+      }
+    },
+    {
+      "when": {
+          "power": 5
+      },
+      "apply": {
+          "model": "block/redstone_wire/dust_ss5"
+      }
+    },
+    {
+      "when": {
+          "power": 6
+      },
+      "apply": {
+          "model": "block/redstone_wire/dust_ss6"
+      }
+    },
+    {
+      "when": {
+          "power": 7
+      },
+      "apply": {
+          "model": "block/redstone_wire/dust_ss7"
+      }
+    },
+    {
+      "when": {
+          "power": 8
+      },
+      "apply": {
+          "model": "block/redstone_wire/dust_ss8"
+      }
+    },
+    {
+      "when": {
+          "power": 9
+      },
+      "apply": {
+          "model": "block/redstone_wire/dust_ss9"
+      }
+    },
+    {
+      "when": {
+          "power": 10
+      },
+      "apply": {
+          "model": "block/redstone_wire/dust_ss10"
+      }
+    },
+    {
+      "when": {
+          "power": 11
+      },
+      "apply": {
+          "model": "block/redstone_wire/dust_ss11"
+      }
+    },
+    {
+      "when": {
+          "power": 12
+      },
+      "apply": {
+          "model": "block/redstone_wire/dust_ss12"
+      }
+    },
+    {
+      "when": {
+          "power": 13
+      },
+      "apply": {
+          "model": "block/redstone_wire/dust_ss13"
+      }
+    },
+    {
+      "when": {
+          "power": 14
+      },
+      "apply": {
+          "model": "block/redstone_wire/dust_ss14"
+      }
+    },
+    {
+      "when": {
+          "power": 15
+      },
+      "apply": {
+          "model": "block/redstone_wire/dust_ss15"
+      }
+    }
+  ]
+}
