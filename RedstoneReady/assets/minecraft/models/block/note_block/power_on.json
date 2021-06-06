@@ -1,0 +1,6 @@
+{
+    "parent": "block/note_block/power_border_parent",
+    "textures": {
+        "all_sides": "block/note_block/power_on"
+    }
+}
