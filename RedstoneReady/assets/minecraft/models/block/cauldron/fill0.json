@@ -1,0 +1,6 @@
+{
+    "parent": "block/cauldron/fill_level_parent",
+    "textures": {
+        "front": "block/cauldron/fill0"
+    }
+}
