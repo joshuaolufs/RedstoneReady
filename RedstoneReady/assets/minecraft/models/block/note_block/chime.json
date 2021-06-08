@@ -1,6 +1,6 @@
 {
     "parent": "block/note_block/instrument_info_parent",
     "textures": {
-        "front": "block/note_block/chime"
+        "front": "block/pack/note_block/chime"
     }
 }
