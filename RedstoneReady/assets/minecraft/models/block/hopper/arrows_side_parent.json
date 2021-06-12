@@ -1,0 +1,58 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [22, 11],
+	"elements": [
+		{
+			"name": "left",
+			"from": [-0.25, 11, 4],
+			"to": [2.25, 15, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 0.72727, 1.45455], "texture": "#arrows"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#arrows"},
+				"south": {"uv": [0, 0, 0.72727, 1.45455], "texture": "#arrows"},
+				"west": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#arrows"},
+				"up": {"uv": [0, 0, 0.72727, 1.45455], "texture": "#arrows"},
+				"down": {"uv": [0, 0, 0.72727, 1.45455], "texture": "#arrows"}
+			}
+		},
+		{
+			"name": "right",
+			"from": [13.75, 11, 4],
+			"to": [16.25, 15, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 0.72727, 1.45455], "texture": "#arrows"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#arrows"},
+				"south": {"uv": [0, 0, 0.72727, 1.45455], "texture": "#arrows"},
+				"west": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#arrows"},
+				"up": {"uv": [0, 0, 0.72727, 1.45455], "texture": "#arrows"},
+				"down": {"uv": [0, 0, 0.72727, 1.45455], "texture": "#arrows"}
+			}
+		},
+		{
+			"name": "up",
+			"from": [6, 10.25, 4],
+			"to": [10, 11.25, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 0.72727, 1.45455], "texture": "#arrows"},
+				"east": {"uv": [0, 0, 0.72727, 1.45455], "texture": "#arrows"},
+				"south": {"uv": [0, 0, 0.72727, 1.45455], "texture": "#arrows"},
+				"west": {"uv": [0, 0, 0.72727, 1.45455], "texture": "#arrows"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#arrows"},
+				"down": {"uv": [0, 0, 0.72727, 1.45455], "texture": "#arrows"}
+			}
+		},
+		{
+			"name": "down",
+			"from": [5.75, 3.75, 1],
+			"to": [10.25, 8.25, 2],
+			"faces": {
+				"north": {"uv": [0.72727, 5.81818, 1.45455, 7.27273], "texture": "#arrows"},
+				"east": {"uv": [0.72727, 5.81818, 1.45455, 7.27273], "texture": "#arrows"},
+				"south": {"uv": [0.72727, 5.81818, 1.45455, 7.27273], "texture": "#arrows"},
+				"west": {"uv": [0.72727, 5.81818, 1.45455, 7.27273], "texture": "#arrows"},
+				"up": {"uv": [0.72727, 5.81818, 1.45455, 7.27273], "texture": "#arrows"},
+				"down": {"uv": [0.72727, 5.81818, 1.45455, 7.27273], "texture": "#arrows"}
+			}
+		}
+	]
+}

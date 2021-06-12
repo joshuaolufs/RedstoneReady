@@ -1,0 +1,6 @@
+{
+    "parent": "block/hopper/arrows_side_parent",
+    "textures": {
+        "arrows": "block/pack/hopper/side_locked"
+    }
+}
