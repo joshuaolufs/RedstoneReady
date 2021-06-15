@@ -1,0 +1,7 @@
+{
+    "parent": "block/comparator/comparator_parent",
+    "textures": {
+        "mode": "block/pack/comparator/side_off",
+        "power": "block/pack/repeater/side_off"
+    }
+}

@@ -1,0 +1,25 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"texture_size": [1, 1],
+	"elements": [
+		{
+			"name": "one",
+			"from": [-0.25, 0.25, 2],
+			"to": [16.25, 1.75, 3],
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side"}
+			}
+		},
+		{
+			"name": "two",
+			"from": [-0.25, 0.25, 4],
+			"to": [16.25, 1.75, 5],
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side"}
+			}
+		}
+	]
+}
