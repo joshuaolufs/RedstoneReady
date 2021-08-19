@@ -1,0 +1,81 @@
+{
+  "multipart": [
+    {"when": {"north": "none", "south": "none", "east": "none", "west": "none"},
+      "apply": {"model": "minecraft:block/redstone_wire/dot"}},
+
+    {"when": {"OR":[
+      {"north": "side|up", "east": "none", "west": "none"},
+      {"south": "side|up", "east": "none", "west": "none"}]},
+        "apply": {"model": "minecraft:block/redstone_wire/line", "y": 0}},
+    {"when": {"OR":[
+      {"north": "none", "south": "none", "east": "side|up"},
+      {"north": "none", "south": "none", "west": "side|up"}]},
+        "apply": {"model": "minecraft:block/redstone_wire/line", "y": 270}},
+
+      {"when": {"north": "side|up", "south": "none", "east": "side|up", "west": "none"},
+        "apply": {"model": "minecraft:block/redstone_wire/corner", "y": 90}},
+      {"when": {"north": "side|up", "south": "none", "east": "none", "west": "side|up"},
+        "apply": {"model": "minecraft:block/redstone_wire/corner", "y": 0}},
+      {"when": {"north": "none", "south": "side|up", "east": "side|up", "west": "none"},
+        "apply": {"model": "minecraft:block/redstone_wire/corner", "y": 180}},
+      {"when": {"north": "none", "south": "side|up", "east": "none", "west": "side|up"},
+        "apply": {"model": "minecraft:block/redstone_wire/corner", "y": 270}},
+
+      {"when": {"north": "none", "south": "side|up", "east": "side|up", "west": "side|up"},
+        "apply": {"model": "minecraft:block/redstone_wire/t", "y": 270}},
+      {"when": {"north": "side|up", "south": "none", "east": "side|up", "west": "side|up"},
+        "apply": {"model": "minecraft:block/redstone_wire/t", "y": 90}},
+      {"when": {"north": "side|up", "south": "side|up", "east": "none", "west": "side|up"},
+        "apply": {"model": "minecraft:block/redstone_wire/t", "y": 0}},
+      {"when": {"north": "side|up", "south": "side|up", "east": "side|up", "west": "none"},
+        "apply": {"model": "minecraft:block/redstone_wire/t", "y": 180}},
+
+      {"when": {"north": "side|up", "south": "side|up", "east": "side|up", "west": "side|up"},
+        "apply": {"model": "minecraft:block/redstone_wire/cross"}},
+
+      {"when": {"north": "up"},
+        "apply": {"model": "minecraft:block/redstone_wire/up", "y": 0}},
+      {"when": {"south": "up"},
+        "apply": {"model": "minecraft:block/redstone_wire/up", "y": 180}},
+      {"when": {"east": "up"},
+        "apply": {"model": "minecraft:block/redstone_wire/up", "y": 90}},
+      {"when": {"west": "up"},
+        "apply": {"model": "minecraft:block/redstone_wire/up", "y": 270}},
+
+
+
+
+      {"when": {"power": 0},
+        "apply": {"model": "minecraft:block/redstone_wire/ss0"}},
+      {"when": {"power": 1},
+        "apply": {"model": "minecraft:block/redstone_wire/ss1"}},
+      {"when": {"power": 2},
+        "apply": {"model": "minecraft:block/redstone_wire/ss2"}},
+      {"when": {"power": 3},
+        "apply": {"model": "minecraft:block/redstone_wire/ss3"}},
+      {"when": {"power": 4},
+        "apply": {"model": "minecraft:block/redstone_wire/ss4"}},
+      {"when": {"power": 5},
+        "apply": {"model": "minecraft:block/redstone_wire/ss5"}},
+      {"when": {"power": 6},
+        "apply": {"model": "minecraft:block/redstone_wire/ss6"}},
+      {"when": {"power": 7},
+        "apply": {"model": "minecraft:block/redstone_wire/ss7"}},
+      {"when": {"power": 8},
+        "apply": {"model": "minecraft:block/redstone_wire/ss8"}},
+      {"when": {"power": 9},
+        "apply": {"model": "minecraft:block/redstone_wire/ss9"}},
+      {"when": {"power": 10},
+        "apply": {"model": "minecraft:block/redstone_wire/ss10"}},
+      {"when": {"power": 11},
+        "apply": {"model": "minecraft:block/redstone_wire/ss11"}},
+      {"when": {"power": 12},
+        "apply": {"model": "minecraft:block/redstone_wire/ss12"}},
+      {"when": {"power": 13},
+        "apply": {"model": "minecraft:block/redstone_wire/ss13"}},
+      {"when": {"power": 14},
+        "apply": {"model": "minecraft:block/redstone_wire/ss14"}},
+      {"when": {"power": 15},
+        "apply": {"model": "minecraft:block/redstone_wire/ss15"}}
+  ]
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "block/hopper/arrows_side_parent",
+    "textures": {
+        "side": "block/hopper/side",
+        "top": "block/hopper/top"
+    }
+}

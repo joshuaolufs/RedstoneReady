@@ -1,0 +1,7 @@
+{
+    "parent": "block/dispenser/arrows_parent",
+    "textures": {
+        "side": "block/dispenser/arrows",
+        "back": "block/dispenser/back"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "block/cauldron/fill_level_parent",
+    "textures": {
+        "front": "block/cauldron/water_fill2",
+        "side": "block/cauldron/water_side"
+    }
+}

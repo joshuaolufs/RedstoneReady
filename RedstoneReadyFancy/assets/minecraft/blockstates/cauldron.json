@@ -1,0 +1,6 @@
+{
+  "multipart": [
+    {"apply": {"model": "minecraft:block/cauldron"}},
+    {"apply": {"model": "block/cauldron/fill0"}}
+  ]
+}

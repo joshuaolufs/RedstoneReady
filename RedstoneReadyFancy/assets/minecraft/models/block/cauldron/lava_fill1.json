@@ -1,0 +1,7 @@
+{
+    "parent": "block/cauldron/fill_level_parent",
+    "textures": {
+        "front": "block/cauldron/lava_fill1",
+        "side": "block/cauldron/lava_side"
+    }
+}

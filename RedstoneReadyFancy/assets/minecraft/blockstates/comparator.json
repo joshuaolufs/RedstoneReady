@@ -1,0 +1,77 @@
+{
+  "multipart": [
+	  {"when":{"facing":"east","mode":"compare","powered":false},
+		  "apply":{"model":"block/comparator/comparator", "y":270}},
+    {"when":{"facing":"east","mode":"compare","powered":true},
+		  "apply":{"model":"block/comparator/comparator_on", "y":270}},
+    {"when":{"facing":"east","mode":"subtract","powered":false},
+		  "apply":{"model":"block/comparator/comparator_subtract", "y":270}},
+    {"when":{"facing":"east","mode":"subtract","powered":true},
+		  "apply":{"model":"block/comparator/comparator_on_subtract", "y":270}},
+
+    {"when":{"facing":"north","mode":"compare","powered":false},
+		  "apply":{"model":"block/comparator/comparator", "y":180}},
+    {"when":{"facing":"north","mode":"compare","powered":true},
+		  "apply":{"model":"block/comparator/comparator_on", "y":180}},
+    {"when":{"facing":"north","mode":"subtract","powered":false},
+		  "apply":{"model":"block/comparator/comparator_subtract", "y":180}},
+    {"when":{"facing":"north","mode":"subtract","powered":true},
+		  "apply":{"model":"block/comparator/comparator_on_subtract", "y":180}},
+
+    {"when":{"facing":"south","mode":"compare","powered":false},
+		  "apply":{"model":"block/comparator/comparator"}},
+    {"when":{"facing":"south","mode":"compare","powered":true},
+		  "apply":{"model":"block/comparator/comparator_on"}},
+    {"when":{"facing":"south","mode":"subtract","powered":false},
+		  "apply":{"model":"block/comparator/comparator_subtract"}},
+    {"when":{"facing":"south","mode":"subtract","powered":true},
+		  "apply":{"model":"block/comparator/comparator_on_subtract"}},
+
+    {"when":{"facing":"west","mode":"compare","powered":false},
+		  "apply":{"model":"block/comparator/comparator", "y":90}},
+    {"when":{"facing":"west","mode":"compare","powered":true},
+		  "apply":{"model":"block/comparator/comparator_on", "y":90}},
+    {"when":{"facing":"west","mode":"subtract","powered":false},
+		  "apply":{"model":"block/comparator/comparator_subtract", "y":90}},
+    {"when":{"facing":"west","mode":"subtract","powered":true},
+		  "apply":{"model":"block/comparator/comparator_on_subtract", "y":90}},
+
+
+
+    {"when":{"facing":"east","mode":"compare","powered":false},
+		  "apply":{"model":"block/comparator/comparator_side", "y":270}},
+    {"when":{"facing":"east","mode":"compare","powered":true},
+		  "apply":{"model":"block/comparator/comparator_side_on", "y":270}},
+    {"when":{"facing":"east","mode":"subtract","powered":false},
+		  "apply":{"model":"block/comparator/comparator_side_subtract", "y":270}},
+    {"when":{"facing":"east","mode":"subtract","powered":true},
+		  "apply":{"model":"block/comparator/comparator_side_on_subtract", "y":270}},
+
+    {"when":{"facing":"north","mode":"compare","powered":false},
+		  "apply":{"model":"block/comparator/comparator_side", "y":180}},
+    {"when":{"facing":"north","mode":"compare","powered":true},
+		  "apply":{"model":"block/comparator/comparator_side_on", "y":180}},
+    {"when":{"facing":"north","mode":"subtract","powered":false},
+		  "apply":{"model":"block/comparator/comparator_side_subtract", "y":180}},
+    {"when":{"facing":"north","mode":"subtract","powered":true},
+		  "apply":{"model":"block/comparator/comparator_side_on_subtract", "y":180}},
+
+    {"when":{"facing":"south","mode":"compare","powered":false},
+		  "apply":{"model":"block/comparator/comparator_side"}},
+    {"when":{"facing":"south","mode":"compare","powered":true},
+		  "apply":{"model":"block/comparator/comparator_side_on"}},
+    {"when":{"facing":"south","mode":"subtract","powered":false},
+		  "apply":{"model":"block/comparator/comparator_side_subtract"}},
+    {"when":{"facing":"south","mode":"subtract","powered":true},
+		  "apply":{"model":"block/comparator/comparator_side_on_subtract"}},
+
+    {"when":{"facing":"west","mode":"compare","powered":false},
+		  "apply":{"model":"block/comparator/comparator_side", "y":90}},
+    {"when":{"facing":"west","mode":"compare","powered":true},
+		  "apply":{"model":"block/comparator/comparator_side_on", "y":90}},
+    {"when":{"facing":"west","mode":"subtract","powered":false},
+		  "apply":{"model":"block/comparator/comparator_side_subtract", "y":90}},
+    {"when":{"facing":"west","mode":"subtract","powered":true},
+		  "apply":{"model":"block/comparator/comparator_side_on_subtract", "y":90}}
+  ]
+}
