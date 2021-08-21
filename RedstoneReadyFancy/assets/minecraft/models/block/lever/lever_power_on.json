@@ -1,0 +1,7 @@
+{
+	"parent": "block/lever/lever_power_parent",
+	"textures": {
+		"face": "block/lever/lever_on",
+		"particle": "block/lever/lever_on"
+	}
+}
