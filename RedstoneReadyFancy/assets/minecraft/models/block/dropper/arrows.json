@@ -1,7 +1,9 @@
 {
-    "parent": "block/dropper/arrows_parent",
+    "parent": "block/dropper/side_parent",
     "textures": {
-        "side": "block/dropper/arrows",
-        "back": "block/dropper/back"
-    }
+		"face": "block/dropper/face",
+		"side": "block/dropper/arrow_side",
+		"back": "block/dropper/back",
+		"top": "block/dropper/arrow_top"
+	}
 }
