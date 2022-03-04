@@ -1,6 +1,6 @@
 {
     "parent": "block/hopper/arrows_down_parent",
     "textures": {
-        "side": "block/hopper/side"
+        "side": "block/hopper/down"
     }
 }
