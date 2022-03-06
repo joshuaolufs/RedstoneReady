@@ -41,9 +41,9 @@
 			"apply":{"model":"block/dropper/arrows", "y":270}},
 
 		{"when":{"facing":"up","triggered":"true"},
-			"apply":{"model":"block/dropper/vertical", "x":0, "y":90}},
+			"apply":{"model":"block/dropper/vertical", "y":90}},
 		{"when":{"facing":"up","triggered":"false"},
-			"apply":{"model":"block/dropper/vertical", "x":0, "y":90}},
+			"apply":{"model":"block/dropper/vertical", "y":90}},
 
 		{"when":{"facing":"down","triggered":"true"},
 			"apply":{"model":"block/dropper/vertical", "x":180, "y":90}},

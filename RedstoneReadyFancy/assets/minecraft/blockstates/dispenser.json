@@ -41,14 +41,14 @@
 			"apply":{"model":"block/dispenser/arrows", "y":270}},
 
 		{"when":{"facing":"up","triggered":"true"},
-			"apply":{"model":"block/dispenser/arrows_on", "x":270}},
+			"apply":{"model":"block/dispenser/vertical_on", "y":90}},
 		{"when":{"facing":"up","triggered":"false"},
-			"apply":{"model":"block/dispenser/arrows", "x":270}},
+			"apply":{"model":"block/dispenser/vertical", "y":90}},
 
 		{"when":{"facing":"down","triggered":"true"},
-			"apply":{"model":"block/dispenser/arrows_on", "x":90}},
+			"apply":{"model":"block/dispenser/vertical_on", "x":180, "y":90}},
 		{"when":{"facing":"down","triggered":"false"},
-			"apply":{"model":"block/dispenser/arrows", "x":90}}
+			"apply":{"model":"block/dispenser/vertical", "x":180, "y":90}}
 		
 	]
 }

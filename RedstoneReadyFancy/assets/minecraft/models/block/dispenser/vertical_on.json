@@ -1,0 +1,8 @@
+{
+    "parent": "block/dispenser/vertical_parent",
+    "textures": {
+		"front": "block/dispenser/vertical_front_on",
+		"side": "block/dispenser/arrow_top_on",
+		"back": "block/dispenser/vertical_back_on"
+	}
+}
