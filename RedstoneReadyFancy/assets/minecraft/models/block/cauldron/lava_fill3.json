@@ -1,7 +1,7 @@
 {
     "parent": "block/cauldron/fill_level_parent",
     "textures": {
-        "front": "block/cauldron/lava_fill1",
+        "front": "block/cauldron/lava_fill3",
         "side": "block/cauldron/lava_side"
     }
 }
