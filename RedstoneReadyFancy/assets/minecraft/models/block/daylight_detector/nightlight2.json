@@ -1,0 +1,6 @@
+{
+    "parent": "block/daylight_detector/daylight_detector_parent",
+    "textures": {
+        "ss": "block/daylight_detector/nightlight2"
+    }
+}
