@@ -1,0 +1,24 @@
+{
+	"multipart": [
+        {"when":{"persistent":false},
+			"apply":{"model": "minecraft:block/jungle_leaves"}},
+        
+        {"when":{"persistent":true},
+			"apply":{"model": "block/leaves/jungle"}},
+
+        {"when":{"persistent":true, "distance": 1},
+			"apply":{"model": "block/leaves/1"}},
+        {"when":{"persistent":true, "distance": 2},
+			"apply":{"model": "block/leaves/2"}},
+        {"when":{"persistent":true, "distance": 3},
+			"apply":{"model": "block/leaves/3"}},
+        {"when":{"persistent":true, "distance": 4},
+			"apply":{"model": "block/leaves/4"}},
+        {"when":{"persistent":true, "distance": 5},
+			"apply":{"model": "block/leaves/5"}},
+        {"when":{"persistent":true, "distance": 6},
+			"apply":{"model": "block/leaves/6"}},
+        {"when":{"persistent":true, "distance": 7},
+			"apply":{"model": "block/leaves/7"}}
+    ]
+}
