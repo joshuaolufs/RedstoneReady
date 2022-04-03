@@ -1,0 +1,7 @@
+{
+    "parent": "block/target/target_parent",
+    "textures": {
+        "top": "block/target/top8",
+        "side": "block/target/side8"
+    }
+}
