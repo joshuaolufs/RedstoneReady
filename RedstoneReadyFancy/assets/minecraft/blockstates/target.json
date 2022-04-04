@@ -1,0 +1,36 @@
+{
+  "multipart": [
+    {"apply": {"model": "minecraft:block/target"}},
+
+    {"when":{"power":1},
+			"apply":{"model":"block/target/1"}},
+    {"when":{"power":2},
+			"apply":{"model":"block/target/2"}},
+    {"when":{"power":3},
+			"apply":{"model":"block/target/3"}},
+    {"when":{"power":4},
+			"apply":{"model":"block/target/4"}},
+    {"when":{"power":5},
+			"apply":{"model":"block/target/5"}},
+    {"when":{"power":6},
+			"apply":{"model":"block/target/6"}},
+    {"when":{"power":7},
+			"apply":{"model":"block/target/7"}},
+    {"when":{"power":8},
+			"apply":{"model":"block/target/8"}},
+    {"when":{"power":9},
+			"apply":{"model":"block/target/9"}},
+    {"when":{"power":10},
+			"apply":{"model":"block/target/10"}},
+    {"when":{"power":11},
+			"apply":{"model":"block/target/11"}},
+    {"when":{"power":12},
+			"apply":{"model":"block/target/12"}},
+    {"when":{"power":13},
+			"apply":{"model":"block/target/13"}},
+    {"when":{"power":14},
+			"apply":{"model":"block/target/14"}},
+    {"when":{"power":15},
+			"apply":{"model":"block/target/15"}}
+  ]
+}
