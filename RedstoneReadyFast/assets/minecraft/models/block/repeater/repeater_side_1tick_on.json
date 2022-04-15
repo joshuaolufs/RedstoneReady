@@ -1,6 +1,0 @@
-{
-    "parent": "block/repeater/repeater_side_1tick_parent",
-    "textures": {
-        "side": "block/pack/repeater/side_on"
-    }
-}

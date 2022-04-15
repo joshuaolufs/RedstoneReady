@@ -1,7 +1,0 @@
-{
-    "parent": "block/observer/arrow_parent",
-    "textures": {
-        "top": "block/pack/observer/arrow_top_on",
-        "side": "block/pack/observer/arrow_side_on"
-    }
-}

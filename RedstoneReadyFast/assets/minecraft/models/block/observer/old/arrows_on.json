@@ -1,6 +1,0 @@
-{
-    "parent": "block/observer/arrows_parent",
-    "textures": {
-        "front": "block/pack/observer/arrows_on"
-    }
-}

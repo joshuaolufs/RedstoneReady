@@ -1,6 +1,0 @@
-{
-    "parent": "block/note_block/note_info_parent",
-    "textures": {
-        "front": "block/pack/note_block/note22"
-    }
-}

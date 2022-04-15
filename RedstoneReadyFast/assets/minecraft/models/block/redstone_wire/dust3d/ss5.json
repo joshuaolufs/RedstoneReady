@@ -1,6 +1,0 @@
-{
-    "parent": "block/redstone_wire/dust3d/ss_parent",
-    "textures": {
-        "ss": "block/pack/redstone_wire/dust3d/ss5"
-    }
-}

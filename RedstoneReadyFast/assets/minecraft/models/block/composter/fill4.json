@@ -1,6 +1,0 @@
-{
-    "parent": "block/composter/fill_level_parent",
-    "textures": {
-        "front": "block/pack/composter/fill4"
-    }
-}
