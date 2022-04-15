@@ -1,0 +1,7 @@
+{
+    "parent": "block/piston/piston_parent",
+    "textures": {
+        "back": "block/piston/normal_off",
+        "side": "block/piston/normal_side_off"
+    }
+}

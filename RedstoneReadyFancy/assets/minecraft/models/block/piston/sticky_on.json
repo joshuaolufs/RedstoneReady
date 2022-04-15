@@ -1,0 +1,7 @@
+{
+    "parent": "block/piston/piston_parent",
+    "textures": {
+        "back": "block/piston/sticky_on",
+        "side": "block/piston/sticky_side_on"
+    }
+}
