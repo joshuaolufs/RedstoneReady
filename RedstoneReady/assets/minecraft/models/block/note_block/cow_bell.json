@@ -1,4 +1,5 @@
 {
+    "credit": "Metamilo",
     "parent": "block/note_block/instrument_info_parent",
     "textures": {
         "front": "block/note_block/cow_bell"

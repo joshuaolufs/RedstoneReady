@@ -1,4 +1,5 @@
 {
+	"credit": "Metamilo",
     "parent": "block/dropper/side_parent",
     "textures": {
 		"face": "block/dropper/face",

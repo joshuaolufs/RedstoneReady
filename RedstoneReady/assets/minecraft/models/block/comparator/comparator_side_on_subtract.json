@@ -1,4 +1,5 @@
 {
+    "credit": "Metamilo",
     "parent": "block/comparator/comparator_parent",
     "textures": {
         "mode": "block/comparator/side_on",

@@ -1,4 +1,5 @@
 {
+    "credit": "Metamilo",
     "parent": "block/pressure_plate/shell_parent",
     "textures": {
         "side": "block/pressure_plate/light4"

@@ -1,4 +1,5 @@
 {
+  "credit": "Metamilo",
   "parent": "minecraft:block/orientable_vertical",
   "textures": {
     "front": "block/dispenser_front_vertical",

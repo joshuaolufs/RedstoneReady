@@ -1,4 +1,5 @@
 {
+    "credit": "Metamilo",
     "parent": "block/target/target_parent",
     "textures": {
         "top": "block/target/top6",

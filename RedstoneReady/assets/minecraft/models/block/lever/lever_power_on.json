@@ -1,4 +1,5 @@
 {
+	"credit": "Metamilo",
 	"parent": "block/lever/lever_power_parent",
 	"textures": {
 		"face": "block/lever/lever_on",

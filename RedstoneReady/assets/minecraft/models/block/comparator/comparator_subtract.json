@@ -1,4 +1,5 @@
 {
+    "credit": "Metamilo",
     "ambientocclusion": false,
     "textures": {
         "particle": "block/comparator",

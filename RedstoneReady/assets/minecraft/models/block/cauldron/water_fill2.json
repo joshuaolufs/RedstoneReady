@@ -1,4 +1,5 @@
 {
+    "credit": "Metamilo",
     "parent": "block/cauldron/fill_level_parent",
     "textures": {
         "front": "block/cauldron/water_fill2",

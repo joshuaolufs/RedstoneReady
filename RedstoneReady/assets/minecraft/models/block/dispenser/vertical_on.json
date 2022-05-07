@@ -1,4 +1,5 @@
 {
+	"credit": "Metamilo",
     "parent": "block/dispenser/vertical_parent",
     "textures": {
 		"front": "block/dispenser/vertical_front_on",

@@ -1,4 +1,5 @@
 {
+    "credit": "Metamilo",
     "parent": "block/observer/arrow_parent",
     "textures": {
         "top": "block/observer/arrow_top",

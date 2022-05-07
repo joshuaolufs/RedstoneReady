@@ -1,4 +1,5 @@
 {
+  "credit": "Metamilo",
   "parent": "minecraft:block/orientable",
   "textures": {
     "top": "block/furnace_top",
