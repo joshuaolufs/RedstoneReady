@@ -1,0 +1,7 @@
+{
+  "credit": "Metamilo",
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "block/leaves/cherry_leaves"
+  }
+}
